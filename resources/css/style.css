@@ -1,3 +1,11 @@
+/* COLOR SCHEME
+NAVY #6865B4
+RED #EB0029
+DARK GRAY #4F5151
+LIGHT GRAY #E9EAEA
+*/
+
+
 /* RESET STYLES */
 
 * {
@@ -147,9 +155,18 @@ img {
 #campus1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 60%;
-    align-content: space-between;
+    margin: 32px;
+ }
+
+#campus1 h2 {
+    color: #D72120;
+    font-size: 2.1rem;
+}
+
+#campus1 p {
+    width: 80%;
 }
 
 #campus1 img {
@@ -161,8 +178,8 @@ img {
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin: 16px;
-    border-left: 1px solid gray;
+    padding-right: 20px;
+    border-right: 2px solid #EB0029;
 }
 
 #orientation, #ourcampus, #guestlecture {
@@ -172,13 +189,13 @@ img {
     align-items: center;
     justify-content: space-around;
     flex: 1 1 auto;
+}
 
-
+#orientation h3, #ourcampus h3, #guestlecture h3 {
+    color: #D72120;
 }
 
 .images {
-    width: 12.5rem;
-    height: 12.5rem;
     display: flex;
  }
 
