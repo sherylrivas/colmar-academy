@@ -1,6 +1,6 @@
 /* COLOR SCHEME
-NAVY #6865B4
 RED #EB0029
+YELLOW #FFF720
 DARK GRAY #4F5151
 LIGHT GRAY #E9EAEA
 */
@@ -64,7 +64,7 @@ header {
 }
 
 #nav-container {
-    margin-right: 24px;
+    margin-right: 0px;
 }
 .navigation li {
     display: inline;
@@ -77,11 +77,11 @@ header {
     text-decoration: none;
     transition: underline 1s;
     transition-timing-function: ease-in;
-}
+ }
 
 .navigation a:hover {
     color: #4F5151;
-    text-decoration: underline;
+    border-bottom: 3px solid #FFF720;    
 }
 
 /* BANNER STYLES */
@@ -92,17 +92,16 @@ header {
     align-items: center;
  }
 
-img {
+#banner-container img {
     height: auto;
     width: 60%;
-    margin: 32px 24px;
 }
 #banner-column2 {
      margin: 32px 24px;
      display: flex;
      flex-direction: column;
      justify-content: center;
-     padding-right: 10px;
+     padding: 0 30px;
       
 }
 
@@ -145,69 +144,134 @@ img {
  }
  
  
+ 
 /* CAMPUS SECTION STYLES */
 
 #campus-container {
     display: flex;
-    margin: 32px 24px;
+    margin: 2rem 1rem;
 }
+
+#campus2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    padding-right: 30px;
+    border-right: 2px solid #EB0029;
+ 
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+ .title:hover {
+     background-color: #E9EAEA;
+ }
+
+.title h3 {
+    color: #D72120;
+}
+
+.title img{
+    height: 12.5rem;
+    width: 12.5rem;
+    padding-right: 2rem;
+}
+.title p {
+    width: 90%;
+}
+
+
 
 #campus1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: center;
     width: 60%;
-    margin: 32px;
+    margin: 16px;
  }
 
 #campus1 h2 {
     color: #D72120;
     font-size: 2.1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 #campus1 p {
     width: 80%;
+    padding-bottom: 1rem;
 }
 
 #campus1 img {
-    width: 100%;
-    margin: 0 auto;
- }
-
-#campus2 {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    padding-right: 20px;
-    border-right: 2px solid #EB0029;
-}
-
-#orientation, #ourcampus, #guestlecture {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    align-items: center;
-    justify-content: space-around;
-    flex: 1 1 auto;
-}
-
-#orientation h3, #ourcampus h3, #guestlecture h3 {
-    color: #D72120;
-}
-
-.images {
-    display: flex;
- }
-
-.text {
-    flex-basis: 1 1 50%;
-    justify-content: center;
-}
+    width: 85%;
+    margin: 0 0;
+    box-shadow: 10px 10px #FFF720;
+  }
 
 /* LEARNING SECTION STYLES */
 
-#learning-container {
+#learning-container {    
+    padding: 2rem;
+    border: 3px solid #FFF720;
+    margin: 2rem;
+}
+#learning-container h2 {
+    color: #D72120;
+    font-size: 2.1rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+#learning-container h4 {
+    color: #4F5151;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: .05rem;
+    text-align: center;
+    padding-bottom: 1rem;
+ }
+
+#inner-learning-container {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.subject-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 30%;
+    padding-bottom: 1rem;
+    margin: 0 5px;
+
+}
+
+.subject-container img {
+     width: 100%;
+     padding-bottom: 10px;
+  }
+
+.subject-container h3 {
+    color: #D72120;
+ }
+
+ .subject-container p {
+     width: 80%;
+     text-align: center;
+     font-size: 0.9rem;
+     padding-top: 0.5rem;
+ }
+.subject-container:hover {
+    background-color: #E9EAEA;
 }
 
 /* THESIS SECTION STYLES */
