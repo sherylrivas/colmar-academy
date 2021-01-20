@@ -278,20 +278,45 @@ header {
 /* THESIS SECTION STYLES */
 
 #thesis-container {
+    background-color: #E9EAEA;
+    padding: 24px;
+}
+
+#thesis-container h2 {
+    color: #D72120;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#inner-thesis-container {
     display: flex;
-    margin: 2rem 0;
+    padding: 24px;
+    align-items: stretch;
 }
 
 #video-column {
     width: 60%;
+    border-right: 2px solid #D72120;
+    margin-right: 3.5rem;
 }
 
 #video-column video {
-    width: 100%;
+    width: 90%;
 }
 
+#video-column h3 {
+    color: #D72120;
+    padding: 0rem 0rem;
+     width: 50%;
+}
+
+#video-column p {
+    width: 60%;
+    padding: 0rem 0rem;
+ }
+
 #other-column-container {
-    width: 40%;
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
