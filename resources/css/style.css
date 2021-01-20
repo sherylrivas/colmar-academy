@@ -179,29 +179,25 @@ header {
 .title img{
     height: 12.5rem;
     width: 12.5rem;
-    padding-right: 2rem;
+    padding: .5rem;
 }
 .title p {
     width: 90%;
 }
 
-
-
 #campus1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     width: 60%;
-    margin: 16px;
- }
+    margin-left: 3rem;
+  }
 
 #campus1 h2 {
     color: #D72120;
     font-size: 2.1rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 1.5rem 0;
 }
 
 #campus1 p {
@@ -210,7 +206,7 @@ header {
 }
 
 #campus1 img {
-    width: 85%;
+    width: 95%;
     margin: 0 0;
     box-shadow: 10px 10px #FFF720;
   }
@@ -261,9 +257,7 @@ header {
      padding-bottom: 10px;
   }
 
-.subject-container h3 {
-    color: #D72120;
- }
+
 
  .subject-container p {
      width: 80%;
@@ -273,6 +267,11 @@ header {
  }
 .subject-container:hover {
     background-color: #E9EAEA;
+}
+
+.subject-container a {
+    text-decoration: none;
+    color: #D72120
 }
 
 /* THESIS SECTION STYLES */
@@ -321,6 +320,11 @@ header {
     display: flex;
    }
 
+#urban-text a{
+   color: #D72120;
+   text-decoration: none;
+}
+
 #other-column-container {
     width: 40%;
     display: flex;
@@ -347,9 +351,17 @@ header {
 }
 
 .text h3 {
-    color: #D72120;
     padding-bottom: .5rem;
 }
+
+.text a {
+    color: #D72120;
+    padding-bottom: .5rem;
+    text-decoration: none;
+
+}
+
+ 
 
 /* FOOTER STYLES */ 
 
