@@ -134,7 +134,9 @@ header {
     max-width: 80%;
     padding: 1rem 0;
     margin: 28px 0 0 0;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
+    
+ 
 }
 
 #button a {
@@ -142,7 +144,7 @@ header {
     text-decoration: none;
     text-transform: uppercase;
  }
- 
+  
  
  
 /* CAMPUS SECTION STYLES */
